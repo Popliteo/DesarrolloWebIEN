@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    border-radius: 2px;
+    background-color:rosybrown
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+flex-direction:row;
+justify-content: flex-end;
+align-items: baseline;
+background-color: rgb(21, 67, 99);
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+padding: 10px 10px;
+border:sienna, 10px solid
+height: 400px;
+}
+
+.flex-container div{
+background-color: aquamarine;
+width: 100px;
+margin: 10px;
+}
